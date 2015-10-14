@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sudo_homepage_background"
+    android:orientation="vertical" >
+
+  
+
+            <TextView
+                android:id="@+id/report_score"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1.5" 
+                android:text="Test"
+                android:background="@drawable/report_score"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="35sp" />
+
+        <ListView
+            android:id="@+id/answer_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4" >
+        </ListView>
+
+</LinearLayout>
